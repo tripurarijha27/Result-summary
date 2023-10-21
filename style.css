@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&family=Ubuntu:wght@300&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: inline-flex;
+    margin: 10vh 20vw;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 75vh;
+}
+
+.result{
+    padding: 25px 50px;
+    width: 30vw;
+    height: 75vh;
+    background-color: #0e37cc;
+    border-radius: 7px;
+    color: white;
+}
+
+.result p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.result h3{
+    font-size: 30px;
+}
+.circle{
+    width: 180px;
+    height: 180px;
+    background: #362FD9;
+    border-radius: 50%;
+    margin: 50px 50px 10px 50px;
+    justify-content: center;
+}
+
+.circle p{
+    padding: 50px;
+}
+
+.total{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.result h3{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.summary h3{
+    margin: 40px 0 0 40px;
+}
+
+.reaction{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px 0 0 40px;
+    background-color: #FDF0F0;
+    border-radius: 5px;
+    width: 315px;
+}
+
+.report1{
+    color: #F78CA2;
+} 
+
+.bold{
+    font-weight: bolder;
+}
+
+.memory{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px 0 0 40px;
+    background-color: #fafade;
+    border-radius: 5px;
+    width: 315px;
+}
+
+.report2{
+    color: #CECE5A;
+} 
+
+.verbal{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px 0 0 40px;
+    background-color: #d5f7de;
+    border-radius: 5px;
+    width: 315px;
+}
+
+.report3{
+    color: #1A5D1A;
+} 
+
+.visual{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px 0 0 40px;
+    background-color: #cddbfa;
+    border-radius: 5px;
+    width: 315px;
+}
+
+.report4{
+    color: #1209bd;
+} 
+
+.btn{
+    display: inline-flex;
+    margin: 45px 0 0 40px;
+    width: 315px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 30px;
+    border-color: none;
+    cursor: pointer;
+    background-color: #4e4c6b;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0e37cc;
+}
